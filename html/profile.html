@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Профиль</title>
+	<link rel="stylesheet" href="../css/for_profile.css">
+	<link rel="stylesheet" href="../css/header__burger.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div class="main__box">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<img src="../img/logo.png" alt="">
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+								<a href="../main.html" class="header__link">Главная</a>
+							</li>
+							<li>
+								<a href="golosovanie.html" class="header__link">Голосование</a>
+							</li>
+							<li>
+								<a href="publishe_project.html" class="header__link">Предложить проект</a>
+							</li>
+							<li>
+								<a href="contacts.html" class="header__link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<a href="" class="header__user">
+						<img src="../img/user.png" alt="">
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<div class="container">
+				<div class="if__profile__not__exsist">
+					<div class="for__not__exsist__box">
+						<p class="caption__not__exsist">Регистрация</p>
+						<input required form="form" type="text" class="profile__name__not__exsist" placeholder="Логин">
+						<input required form="form" type="text" class="profile__mobile__not__exsist" placeholder="Мобильный номер">
+						<input required form="form" type="password" class="profile__password__not__exsist" placeholder="Пароль">
+						<a href="" class="a__for__not__exsist"><button class="button__for__not__exsist">Авторизация</button></a>
+						<p class="from__gos">Войти через:</p>
+						<a href="https://esia.gosuslugi.ru/idp/rlogin?cc=bp" class="gos__link"><img src="../img/gosuslugi.png" alt=""></a>
+						<a class="link__if__exsist" href=""><u>Уже зарегистрированы? Войти</u></a>
+					</div>
+				</div>
+				<div class="if__profile__exsist">
+					<div class="box__for__exsist">
+						<p class="vhod">Вход</p>
+						<input required form="form" type="text" class="profile__name__exsist" placeholder="Логин">
+						<input required form="form" type="password" class="profile__password__exsist" placeholder="Пароль">
+						<a href="" class="a__for__exsist"><button class="button__for__exsist">Авторизация</button></a>
+						<p class="link__if__not__exsist"><u>У вас нет аккаунта? Регистрация</u></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer__content">
+				<img src="../img/cc.jpg" alt="">
+				<p>© ИГУ ФБКиИ, 2020</p>
+			</div>
+		</footer>
+	</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="../js/for_main_java.js"></script>
+		<script src="../js/for_profile.js"></script>
+</body>
+</html>
